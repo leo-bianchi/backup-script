@@ -22,3 +22,8 @@ backup-dir
 ├── [root     4.0K]  monthly
 └── [root     4.0K]  weekly
 ```
+And a crontab rule for my backups:
+```bash
+## Daily at 2AM
+0 2 * * * . /home/backup/scripts/backup.sh >> /var/log/backup/daily.log 2>&1
+```
