@@ -1,5 +1,5 @@
 # backup-script
- Script for routine backups on Debian-based Linux servers.
+ Script for routine backups on Debian-based Linux servers with a retetion rule based on time and number of directories.
 
 To script works you will need to install rsync in your machine:
 ```bash
